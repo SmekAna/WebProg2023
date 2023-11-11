@@ -1,0 +1,37 @@
+.footer {
+  display: flex;
+  margin: auto;
+  flex-direction: row;
+  justify-content: space-between;
+
+  height: 128px;
+  padding: 20px 0 24px 0;
+  margin-right: 128px;
+  margin-left: 128px;
+  border-top: 1px solid #e7e8ea;
+
+  &-text {
+    font-family: 'Roboto';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.54);
+  }
+
+  &__contact {
+    display: flex;
+    justify-content: flex-end;
+
+    & a {
+      text-decoration: solid;
+      color: #336fee;
+    }
+  }
+}
+
+.footer-container {
+  margin: 152px auto 0 auto;
+  max-width: 1360px;
+  background-color: #f6f7f8;
+}
