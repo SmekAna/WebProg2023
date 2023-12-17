@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml"
+    href="https://clipground.com/images/candle-stick-clipart-11.jpg" />
+  <title>Свечной магазин</title>
+</head>
+<body>
+  <header class="main_head">
+    <a>Смекалина Анастасия 6407</a>
+    <div>
+
+      <button id="setup-btn" class="head_btn2" type="button">Витрина карточек</button>
+    </div>
+  </header>
+  <main class="main">
+    <button class="cre_btn" type="button" onclick="openForm('createForm')">Создать карточку</button>
+    <div class="label flex__start-center">
+      <span>Витрина карточек</span>
+    </div>
+    <div class="card_l"></div>
+    <div class="popup flex__center" id="editForm">
+      <div class="creat_window  flex__column-center">
+        <input class="creat_window__input-form" 
+        name="idEdit" 
+        type="text" 
+        placeholder="ID товара"></input>
+
+        <input class="creat_window__input-form" 
+        name="nameEdit" type="text" 
+        placeholder="Название"></input>
+
+        <input class="creat_window__input-form" 
+        name="providerEdit" type="text" 
+        placeholder="Поставщик"></input>
+
+        <input class="creat_window__input-form" 
+        name="srcEdit" 
+        type="url" 
+        placeholder="Ссылка на изображение"></input>
+
+        <textarea class="creat_window__input-desc" 
+        name="descEdit" 
+        placeholder="Описание"></textarea>
+
+        <div class="creat_window__btn_wrap flex__space-between">
+          <button class="creat_window__btn" 
+          id="edit-btn" 
+          onclick="editC(event)">Изменить</button>
+
+          <button class="creat_window__btn" 
+          onclick="closeForm('editForm')">Отмена</button>
+
+          <button class="creat_window__btn" 
+          id="delete-btn" 
+          onclick="deleteC(event)">Удалить</button>
+        </div>
+      </div>
+    </div>
+    <div class="popup flex__center" id="createForm">
+      <div class="creat_window flex__column-center">
+        <input class="creat_window__input-form" 
+        name="idCreate" 
+        type="text" 
+        placeholder="ID товара"></input>
+
+        <input class="creat_window__input-form" 
+        name="nameCreate" 
+        type="text" 
+        placeholder="Название"></input>
+
+        <input class="creat_window__input-form" 
+        name="providerCreate" 
+        type="text" 
+        placeholder="Поставщик"></input>
+
+        <input class="creat_window__input-form" 
+        name="srcCreate" type="url"
+        placeholder="Ссылка на изображение"></input>
+
+        <textarea class="creat_window__input-desc" 
+        name="descCreate" 
+        placeholder="Описание"></textarea>
+
+        <div class="creat_window__btn_wrap flex__space-between">
+          <button class="creat_window__btn" 
+          onclick="addCard()">Создать</button>
+
+          <button class="creat_window__btn" 
+          onclick="closeForm('createForm')">Отмена</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script defer type="module" src="./main.js"></script>
+  <script src="assets/product_cards.js"></script>
+  <script src="assets/form.js"></script>
+
+
+</body>
+</html>
