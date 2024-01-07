@@ -1,9 +1,0 @@
-export { default as Navbar } from "./Navbar";
-export { default as Sidebar } from "./Sidebar";
-export { default as MovieItem } from "./Item";
-export { default as Loader } from "./Loader";
-export { default as Filter } from "./Filterr";
-export { default as SearchMovies } from "./Search";
-export { default as MovieList } from "./List";
-export { default as FormControl } from "./Form";
-export { default as MultipleSelectChip } from "./MultSelectChip";

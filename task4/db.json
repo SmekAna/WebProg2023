@@ -1,0 +1,43 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Свеча в банке",
+      "provider": "Праздники",
+      "src": "https://avatars.mds.yandex.net/get-mpic/7650126/img_id8525734505786780032.jpeg/orig",
+      "desc": "Свеча с запахом сданной сессии"
+    },
+    {
+      "id": 2,
+      "name": "Свеча маленькая",
+      "provider": "Сессия",
+      "src": "https://i.pinimg.com/736x/aa/d7/d2/aad7d287094dc92ae8a7bc6174772b70.jpg",
+      "desc": "С ароматом последней нервной клетки"
+    },
+    {
+      "id": 3,
+      "name": "Подсвечник",
+      "provider": "Новый год",
+      "src": "//avatars.mds.yandex.net/i?id=6098d7faa8384cad3bb5a75789961425_l-5087196-images-thumbs&n=13",
+      "desc": "То самое новогоднего настроения в октябре"
+    },
+    {
+      "id": 4,
+      "name": "Свеча большая",
+      "provider": "Слезы",
+      "src": "//avatars.mds.yandex.net/i?id=89eedfc5b76ac8446b6daf21281af99c_l-5312449-images-thumbs&n=13",
+      "desc": "Класический аромат 'А когда можно досдать?"
+    },
+    {
+      "id": 5,
+      "name": "Свеча с деревянным фителем",
+      "provider": "Боль",
+      "src": "//avatars.mds.yandex.net/i?id=9fc62ba56f52db6c56257b0590487105_sr-9181231-images-thumbs&n=13",
+      "desc": "Хит сезона: 'Не ставьте 3, у меня стипендия'"
+    }
+  ],
+  "profile": {
+    "name": "Смекалина Анастасия",
+    "group": 6407
+  }
+}
