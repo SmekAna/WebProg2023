@@ -16,4 +16,4 @@
 ![image](https://github.com/SmekAna/WebProg2023/blob/task4-AJAX/task4/assets/2.jpg?raw=true)
 
 По нажатию на кнопку "Изменить" открывается форма редактирования карточки с возможностью изменения всех полей и тремя кнопками: "Изменить" - для сохранения изменений, "Отмена" - для отмены изменений, "Удалить" - для удаления карточки.
-![image](![image](https://github.com/SmekAna/WebProg2023/assets/113173933/4d9c32f8-5f2b-4b33-a5bd-7f18c5be21a2)
+![image](https://github.com/SmekAna/WebProg2023/blob/task4-AJAX/task4/assets/3.jpg?raw=true)
